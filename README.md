@@ -1,12 +1,64 @@
-# React + Vite
+# 🎓 Student Job Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application designed for students and job seekers to manage and track job applications with ease. From adding new entries to updating statuses and filtering by progress — this app has you covered.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖥️ Live Demo
 
-## Expanding the ESLint configuration
+Here is the preview of the website which is initially designed with Local Storage API
+https://job-applications-manager-demo.netlify.app/
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tech Stack
+
+| Tech             | Description                    |
+|------------------|--------------------------------|
+| **React.js**     | Frontend library (with Hooks)  |
+| **Node.js**      | JavaScript runtime             |
+| **Express.js**   | Backend web framework          |
+| **MongoDB**      | NoSQL database                 |
+
+---
+
+## 🎯 Features
+
+### ✅ Add Job Application  
+Create a new job entry with the following fields:
+- 📌 Company Name  
+- 🧑‍💼 Job Role  
+- 🔁 Application Status: `Applied`, `Interview`, `Offer`, `Rejected`  
+- 📅 Date of Application    
+
+### 📋 List All Applications  
+- Displays all jobs in a clean and responsive layout  
+- Supports **filtering** by status and date
+
+### 🔄 Update Status  
+- Quickly update the status as your application progresses  
+
+### 🗑️ Delete Application  
+- Remove any job application from the list  
+
+
+### Installation & Setup
+
+```bash
+git clone https://github.com/pippalla-sairam/Job-Applications-Manager.git
+cd Job-Applications-Manager
+```
+
+### Setup backend
+```bash
+cd backend
+npm install
+node server.js
+```
+
+# Add .env file with your MongoDB URI
+
+```bash
+npm install
+npm run dev
+```
