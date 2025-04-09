@@ -57,8 +57,9 @@ npm install
 node server.js
 ```
 
-# Add .env file with your MongoDB URI
+Add .env file with your MongoDB URI
 
+### Setup frontend
 ```bash
 npm install
 npm run dev
