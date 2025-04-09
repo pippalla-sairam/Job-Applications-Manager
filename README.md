@@ -6,7 +6,9 @@ A full-stack web application designed for students and job seekers to manage and
 
 ## 🖥️ Live Demo
 
-[Here is the preview of the website which is initially designed with Local Storage API.](https://job-applications-manager-demo.netlify.app/)
+Here is the preview of the website which is initially designed with Local Storage API.
+
+https://job-applications-manager-demo.netlify.app/
 
 ---
 
