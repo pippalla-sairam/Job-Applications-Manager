@@ -1,10 +1,10 @@
-# 🎓 Student Job Tracker
+# Student Job Tracker
 
 A full-stack web application designed for students and job seekers to manage and track job applications with ease. From adding new entries to updating statuses and filtering by progress — this app has you covered.
 
 ---
 
-## 🖥️ Live Demo
+## Live Demo
 
 Here is the preview of the website which is initially designed with Local Storage API.
 
@@ -12,7 +12,7 @@ https://job-applications-manager-demo.netlify.app/
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 | Tech             | Description                    |
 |------------------|--------------------------------|
@@ -23,23 +23,23 @@ https://job-applications-manager-demo.netlify.app/
 
 ---
 
-## 🎯 Features
+## Features
 
-### ✅ Add Job Application  
+### Add Job Application  
 Create a new job entry with the following fields:
-- 📌 Company Name  
-- 🧑‍💼 Job Role  
-- 🔁 Application Status: `Applied`, `Interview`, `Offer`, `Rejected`  
-- 📅 Date of Application    
+- Company Name  
+- Job Role  
+- Application Status: `Applied`, `Interview`, `Offer`, `Rejected`  
+- Date of Application    
 
-### 📋 List All Applications  
+### List All Applications  
 - Displays all jobs in a clean and responsive layout  
 - Supports **filtering** by status and date
 
-### 🔄 Update Status  
+### Update Status  
 - Quickly update the status as your application progresses  
 
-### 🗑️ Delete Application  
+### Delete Application  
 - Remove any job application from the list  
 
 
